@@ -1,0 +1,24 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: min-content;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.game-box {
+  background-color: white;
+  border: 1px solid black;
+  height: 8rem;
+  width: 8rem;
+  font-size: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.full-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
